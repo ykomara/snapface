@@ -7,4 +7,5 @@
         <button (click)="onClickSnap()">{{clickSnap}}</button>
         🤌 {{ faceSnap.snaps }}
     </p>
+    <p *ngIf="faceSnap.localisation === 'Paris'">{{faceSnap.localisation}} </p>
 </div>

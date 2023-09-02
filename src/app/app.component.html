@@ -1,2 +1,2 @@
-<app-face-snap [faceSnap]="mySnap"></app-face-snap>
-<app-face-snap [faceSnap]="yourSnap"></app-face-snap>
+<app-face-snap [faceSnap]="mySnap" *ngIf="mySnap.snaps>5"></app-face-snap>
+<app-face-snap [faceSnap]="yourSnap" *ngIf="mySnap.snaps>5"></app-face-snap>
