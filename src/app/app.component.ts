@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
         titre: 'Fillon Technologie',
         description: 'mon premier ami depuis tout petit',
         createdDate: new Date,
-        snaps: 6,
+        snaps: 150,
         imageUrls: 'https://3dfreelance.fr/wp-content/uploads/2020/05/stand-moderne_fillon-technologies.jpg',
         localisation: 'Rennes'
       },
